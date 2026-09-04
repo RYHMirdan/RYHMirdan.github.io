@@ -16,7 +16,7 @@ timezone:
 
 title: "Rouda@Blog:~" # the main title
 
-tagline: Let everything inspire you # it will display as the subtitle
+tagline: There's always another train # it will display as the subtitle
 
 description: >- # used by seo meta and the atom feed
    Cybersecurity portfolio documenting digital forensics, SOC analysis, security research, and hands-on cybersecurity projects.

@@ -8,10 +8,9 @@ order: 4
 
 ## $ whoami
 
-Hello! I'm ROuda, a Y4 cybersecurity student focused on digital foresics, SOC analysis, and hands on security research.
-I enjoy working with Splunk, Snort, SecurityOnion, aswell as various digital forensic software. 
+Hello! I'm Rouda, a Y4 B.Sc. cybersecurity student focused on digital forensics, SOC analysis, and hands-on security research.
+I enjoy working with Splunk, IDPS solutions, KAPE, EZ tools, as well as various digital forensic software. 
 
-## $ ls Links/
 ## $ ls Links/
 
 <div class="link-cards">

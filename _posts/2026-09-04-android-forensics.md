@@ -1,6 +1,6 @@
 ---
 title: "Android Forensic Analysis"
-date: 2026-09-04 20:00:00 -0400
+date: 2026-09-04 01:00:00 -0400
 categories: [Forensics Practice, Mobile Forensics]
 tags: [android, aleapp, mobile-forensics]
 ---

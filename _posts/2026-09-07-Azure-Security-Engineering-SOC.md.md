@@ -28,7 +28,7 @@ Each subnet has an associated NSG to control inbound and outbound traffic.
 - Priority 110: Allow Active Directory UDP traffic.
 - Priority 120: Allow RDP (TCP 3389) from home public IP (`/32`).
 - Priority 200: Deny other VNet inbound traffic.
-![NSG Management](/assets/img\Azure-SOC-lab/04-management-nsg-inbound-rules.png)
+![NSG Management](/assets/img/Azure-SOC-lab/04-management-nsg-inbound-rules.png)
 
 **NSG-WORKLOAD**
 - Priority 100: Allow internal workload subnet traffic.

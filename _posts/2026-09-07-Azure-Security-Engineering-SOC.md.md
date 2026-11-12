@@ -62,5 +62,7 @@ Each subnet has an associated NSG to control inbound and outbound traffic.
 - **File Integrity Monitoring (FIM):** OSSEC.conf <syscheck> configured for C:\SOC-FIM-Test.
 
 ## MITRE ATT&CK Emulations
+
 ### T1078.002
+
 #### Objective and Scope

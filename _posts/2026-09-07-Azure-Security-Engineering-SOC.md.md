@@ -17,9 +17,8 @@ The lab currently consists of three virtual machines:
 The three machines are separated into Management, Workload, and Security subnets. Each subnet has an associated Network Security Group to control network traffic. This design was made with a foundation for exploring how enterprise environments separate administrative systems, user endpoints, and security infrastructure in mind.
 
 ![Azure SOC Lab Architecture](/assets/img/Azure-SOC-lab/azure-soc-architecture.png)
-###### Lab Architecture ######
 
-### Network Security Groups (NSGs)
+### Network Security Groups
 
 Each subnet has an associated NSG to control inbound and outbound traffic.
 
@@ -44,3 +43,24 @@ Each subnet has an associated NSG to control inbound and outbound traffic.
 - Priority 150: Allow HTTPS (TCP 443) from home public IP (`/32`).
 - Priority 200: Deny other VNet inbound traffic.
 ![NSG Security](/assets/img/Azure-SOC-lab/06-security-nsg-inbound-rules.png)
+
+## Active Directory & Identity Management
+
+- **Domain:** soclab.local
+- **Domain Controller:** VM-DC01 (Windows Server 2022)
+- **Services:** Active Directory Domain Services and DNS.
+- **Organizational Units:** Executive, IT, HR, Finance, Operations, Users, Computers, Groups.
+- **Test Accounts:** jsmith and atomic.test.
+- **Domain Join:** VM-WIN11 successfully joined to soclab.local.
+
+## Wazuh Deployment & Endpoint Monitoring
+
+- **Wazuh Manager:** VM-WAZUH01 (Ubuntu Server 24.04).
+- **Monitored Endpoints:** VM-DC01 and VM-WIN11.
+- **Agent Status:** Both Windows agents connected and active.
+- **Monitoring:** Windows security events, authentication events, and process creation events.
+- **File Integrity Monitoring (FIM):** OSSEC.conf <syscheck> configured for C:\SOC-FIM-Test.
+
+## MITRE ATT&CK Emulations
+### T1078.002
+#### Objective and Scope
